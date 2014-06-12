@@ -25,7 +25,7 @@
 .header .logo {
   width: 113px;
   height: 39px;
-  background-image: url('/img/logo.png');
+  background-image: url('../img/logo.png');
   display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
@@ -44,7 +44,7 @@
 
 .map {
   margin-top: 120px;
-  background: url('/img/map.png') left top no-repeat;
+  background: url('../img/map.png') left top no-repeat;
   width: 968px;
   height: 818px;
 }
@@ -170,58 +170,58 @@
 }
 
 .abc { left: 40px; top: 90px; }
-.abc:after { background-image: url('/img/abc.png'); }
+.abc:after { background-image: url('../img/abc.png'); }
 
 .star69 { left: 235px; top: 475px; }
-.star69:after { background-image: url('/img/star69.png'); }
+.star69:after { background-image: url('../img/star69.png'); }
 
 .ballpoint { left: 212px; top: 90px; }
-.ballpoint:after { background-image: url('/img/ballpoint.png'); background-size: 40%; }
+.ballpoint:after { background-image: url('../img/ballpoint.png'); background-size: 40%; }
 
 .call-waiting { left: 110px; top: 350px; }
-.call-waiting:after { background-image: url('/img/call-waiting.png'); background-size: 40%; }
+.call-waiting:after { background-image: url('../img/call-waiting.png'); background-size: 40%; }
 
 .dial-tone { left: 213px; top: 620px; }
-.dial-tone:after { background-image: url('/img/dial-tone.png'); }
+.dial-tone:after { background-image: url('../img/dial-tone.png'); }
 
 .hieroglyph { left: 295px; top: 183px; }
-.hieroglyph:after { background-image: url('/img/hieroglyph.png'); background-size: 40%; }
+.hieroglyph:after { background-image: url('../img/hieroglyph.png'); background-size: 40%; }
 
 .hypertext { left: 585px; top: 65px; }
-.hypertext:after { background-image: url('/img/hypertext.png'); }
+.hypertext:after { background-image: url('../img/hypertext.png'); }
 
 .morse-code { left: 470px; top: -45px; }
-.morse-code:after { background-image: url('/img/morse-code.png'); background-size: 40%; }
+.morse-code:after { background-image: url('../img/morse-code.png'); background-size: 40%; }
 
 .phone-home { left: 62px; top: 250px; }
-.phone-home:after { background-image: url('/img/phone-home.png'); }
+.phone-home:after { background-image: url('../img/phone-home.png'); }
 
 .pony-express { left: 496px; top: 627px; }
-.pony-express:after { background-image: url('/img/pony-express.png'); background-size: 40%; }
+.pony-express:after { background-image: url('../img/pony-express.png'); background-size: 40%; }
 
 .rosetta-stone { left: 830px; top: 696px; }
-.rosetta-stone:after { background-image: url('/img/rosetta-stone.png'); background-size: 33%; }
+.rosetta-stone:after { background-image: url('../img/rosetta-stone.png'); background-size: 33%; }
 
 .smoke-signal { left: 428px; top: 760px; }
-.smoke-signal:after { background-image: url('/img/smoke-signal.png'); background-size: 40%; }
+.smoke-signal:after { background-image: url('../img/smoke-signal.png'); background-size: 40%; }
 
 .sputnik { left: 255px; top: 760px; }
-.sputnik:after { background-image: url('/img/sputnik.png'); }
+.sputnik:after { background-image: url('../img/sputnik.png'); }
 
 .telegram { left: 65px; top: 695px; }
-.telegram:after { background-image: url('/img/telegram.png'); }
+.telegram:after { background-image: url('../img/telegram.png'); }
 
 .wall-street { left: 90px; top: -45px; }
-.wall-street:after { background-image: url('/img/wall-street.png'); background-size: 25%; }
+.wall-street:after { background-image: url('../img/wall-street.png'); background-size: 25%; }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
   .header .logo {
-    background-image: url('/img/logo@2x.png');  
+    background-image: url('../img/logo@2x.png');  
     background-size: 100% 100%;
   }
 
   .map {
-    background: url('/img/map@2x.png');
+    background: url('../img/map@2x.png');
     background-size: 100%;
   }
 }
