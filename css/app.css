@@ -40,6 +40,9 @@
   width: auto;
   padding: 6px 18px;
   outline: none;
+  padding-left: 20px;
+  font-size: 22px;
+  color: #2F3440;
 }
 
 .map {
