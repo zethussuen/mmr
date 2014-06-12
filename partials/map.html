@@ -1,0 +1,13 @@
+<div class="header">
+  <div class="container">
+    <div class="logo"></div>
+    <input type="text" data-ng-model="match" placeholder="Find a conference room" autofocus>
+  </div>
+</div>
+<div class="container">
+  <div class="map"></div>
+  <div data-ng-repeat="room in rooms | filter:match" class="sign {{room.class}}">
+    {{room.name}}
+    <div class="arrow {{room.dir}}"></div>
+  </div>
+</div>
