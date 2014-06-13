@@ -10,7 +10,7 @@ angular.module('myApp.controllers', [])
       {'name': 'Ballpoint', 'class': 'ballpoint', 'dir': 'bottom'},
       {'name': 'Call Waiting', 'class': 'call-waiting', 'dir': 'bottom'},
       {'name': 'Dial Tone', 'class': 'dial-tone', 'dir': 'top'},
-      {'name': 'emoji', 'class': 'emoji', 'dir': 'none'},
+      {'name': 'emoji', 'class': 'emoji', 'dir': 'bottom'},
       {'name': 'Hieroglyph', 'class': 'hieroglyph', 'dir': 'left'},
       {'name': 'Hypertext', 'class': 'hypertext', 'dir': 'top'},
       {'name': 'Morse Code', 'class': 'morse-code', 'dir': 'bottom'},

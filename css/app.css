@@ -214,7 +214,7 @@ body {
 .dial-tone { left: 213px; top: 620px; }
 .dial-tone:after { background-image: url('../img/dial-tone.png'); }
 
-.emoji { left: 253px; top: 20px; }
+.emoji { left: 280px; top: -45px; }
 .emoji:after { background-image: url('../img/emoji.png'); background-size: 50%; }
 
 .hieroglyph { left: 295px; top: 183px; }
@@ -241,11 +241,8 @@ body {
 .smoke-signal { left: 428px; top: 760px; }
 .smoke-signal:after { background-image: url('../img/smoke-signal.png'); background-size: 40%; }
 
-.sputnik { left: 255px; top: 760px; }
+.sputnik { left: 249px; top: 760px; }
 .sputnik:after { background-image: url('../img/sputnik.png'); }
-
-.telegram { left: 65px; top: 695px; }
-.telegram:after { background-image: url('../img/telegram.png'); }
 
 .wall-street { left: 90px; top: -45px; }
 .wall-street:after { background-image: url('../img/wall-street.png'); background-size: 25%; }
@@ -253,7 +250,7 @@ body {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
   .header .logo {
     background-image: url('../img/logo@2x.png');  
-    background-size: 100% 100%;
+    background-size: 100%;
   }
 
   .map {
